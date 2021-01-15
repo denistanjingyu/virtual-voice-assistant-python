@@ -1,3 +1,4 @@
+# Import libraries
 import speech_recognition as sr
 import pyttsx3
 import datetime
@@ -51,7 +52,6 @@ def run_alexa():
     else:
         talk('I did not get it but i am going to search it for you')
         pywhatkit.search(command)
-
 
 while True:
     run_alexa()
